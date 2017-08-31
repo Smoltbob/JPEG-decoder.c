@@ -1,0 +1,12 @@
+Invader_wronghead : on a remplacé le flag <ff><da> par <da>.
+Réponse : [src/jpeg_reader.c] ERROR: Invalid marker, expected 0xff, got 0xda
+
+Invader63 : on a supprimé un octet dans le bloc image.
+Réponse : l'image est décodée (idem qu'avec Gimp ou EoG).
+
+Tricorn : très grande image.
+Réponse : image bien décodée (fichier ppm de 300Mo), en environ 70s.
+
+Scierie : encodée en mode progressif.
+Réponse : [src/jpeg_reader.c] ERROR:   application APP mode APP1 is not handled by this decoder (APP0 only)
+ 

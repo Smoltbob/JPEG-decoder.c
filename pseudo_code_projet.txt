@@ -1,0 +1,20 @@
+JPEG2PPM
+{
+	initialisation du bitstream et du descripteur
+
+	for each mcu
+		decodage mcu			# lecture a partir du flux
+
+		traitement mcu			# traitement mathématique
+
+		upsampling mcu			# et traitement echantillonage
+
+		conversion rgb  
+
+		reordonnancement pixels		# preparation de l'affichage
+	end for
+	
+	reordonnancement pixels			# preparation de l'affichage
+
+	generation ppm
+}
